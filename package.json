@@ -7,14 +7,13 @@
     "@tailwindcss/ui": "^0.3.0",
     "alpinejs": "^2.3.5",
     "autoprefixer": "^9.8.0",
-    "browserify": "^16.5.1",
     "postcss-cli": "^7.1.1",
     "postcss-import": "^12.0.1",
     "tailwindcss": "^1.4.6"
   },
   "devDependencies": {},
   "scripts": {
-    "build": "postcss css/app.css -o public/css/app.css && browserify js/app.js -o public/js/app.js",
+    "build": "postcss css/app.css -o public/css/app.css",
     "live": "cd public && live-server"
   },
   "keywords": [],

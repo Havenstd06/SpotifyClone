@@ -4,20 +4,16 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: ["Inter var"],
-        firacode: ["Fira Code"],
-        raleway: ["Raleway"],
       },
-      maxWidth: {
-        '0.5xl': '39rem',
-      },
-      scale: {
-        '102': '1.02',
-      },
-      transitionDuration: {
-        '600': '600ms',
+      colors: {
+        'gray-900-spotify' : '#121212',
+        'gray-800-spotify' : '#181818',
+        'gray-700-spotify' : '#282828'
       }
     },
   },
-  variants: {},
+  variants: {
+    textColor: ['responsive', 'hover', 'focus', 'group-hover'],
+  },
   plugins: [require("@tailwindcss/ui")],
 };
