@@ -1,0 +1,665 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="Thomas Drumont" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="index,follow"><!-- All Search Engines -->
+  <meta name="googlebot" content="index,follow"><!-- Google Specific -->
+  <meta name="subject" content="website">
+  <meta name="rating" content="General">
+  <meta name="format-detection" content="telephone=no">
+  <title>Thomas Drumont — Portfolio</title>
+  <link rel="shortcut icon" href="favicon.ico">
+  <meta name="description" content="Développeur Front et Back-end">
+
+  <!-- Facebook Cards -->
+  <meta property="og:image" content="https://thomas.drumont.dev/img/photo_profil_2.jpg" />
+  <meta property="og:image:width" content="279" />
+  <meta property="og:image:height" content="279" />
+  <meta property="og:description" content="Développeur Front et Back-end" />
+  <meta property="og:title" content="Thomas Drumont — Portfolio" />
+  <meta property="og:url" content="https://thomas.drumont.dev/" />
+
+  <!-- Twitter Cards -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:creator" content="@HavensYT" />
+  <meta name="twitter:url" content="https://twitter.com/HavensYT" />
+  <meta name="twitter:title" content="Thomas Drumont — Portfolio" />
+  <meta name="twitter:description" content="Développeur Front et Back-end" />
+  <meta property="og:image" content="https://thomas.drumont.dev/img/photo_profil_2.jpg" />
+
+  <!-- Schema.org -->
+  <meta itemprop="name" content="Thomas Drumont — Portfolio" />
+  <meta itemprop="description" content="Développeur Front et Back-end" />
+  <meta itemprop="image" content="https://thomas.drumont.dev/img/photo_profil_2.jpg" />
+
+  <!-- Style -->
+  <link rel="stylesheet" href="css/app.css">
+</head>
+
+<body class="bg-beau md:overflow-hidden">
+    <ul class="circles">
+      <li></li><!--/ ...................../´¯¯/) /-->
+      <li></li><!--/ ...................,/¯.../ /-->
+      <li></li><!--/ .................../..../ /-->
+      <li></li><!--/ .............../´¯/'..'/´¯¯`·¸ /-->
+      <li></li><!--/ .........../'/.../..../....../¨¯\ /-->
+      <li></li><!--/ ..........('(....´...´... ¯~/'..') /-->
+      <li></li><!--/ ...........\..............'...../ /-->
+      <li></li><!--/ ............\....\.........._.·´ /-->
+      <li></li><!--/ .............\..............(     SURVEILLANCE! /-->
+      <li></li><!--/ ..............\..............\ /-->
+    </ul>
+  <div class="relative" x-data="{ section: 'principal' }">
+    <section id="principal" class="items-center h-screen py-5 md:flex" x-show="section === 'principal'" x-description="Panel Principal" x-transition:enter="ease-out duration-300" x-transition:enter-start="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95" x-transition:enter-end="opacity-100 translate-y-0 sm:scale-100" x-transition:leave="ease-in duration-200" x-transition:leave-start="opacity-100 translate-y-0 sm:scale-100" x-transition:leave-end="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95">
+      <div class="w-full px-4 sm:px-6 lg:px-8">
+        <div class="max-w-4xl mx-auto">
+          <div class="relative z-50 mb-4 overflow-hidden transition-all ease-in-out bg-white rounded-lg shadow-md shadow-lg duration-600 md:mb-0 md:transform hover:w-full hover:-translate-y-1 hover:scale-102 hover:shadow-lg">
+            <div class="px-3 pt-10 pb-5 md:px-5">
+              <div class="grid grid-cols-1 gap-4 md:grid-cols-2">
+                <div class="flex items-center justify-center">
+                  <img src="img/photo_profil_1.png" class="w-64 transition duration-500 ease-in-out rounded-full shadow-lg hover:shadow-2xl" alt="Thomas Drumont">
+                </div>
+                <div class="items-center justify-center my-4 border-t border-gray-600 lg:flex md:my-0 md:border-t-0 md:border-l-2">
+                  <div class="mt-4 text-center md:mt-0">
+                    <div class="flex items-center justify-center" x-data="{ hover: false }">
+                      <div @mouseenter="hover = true" @mouseleave="hover = false">
+                        <i :class="{ 'fas': hover === true }" class="mr-2 text-xl text-gray-700 lg:text-3xl far fa-terminal"></i>
+                      </div>
+                      <h1 class="text-xl font-medium text-gray-800 lg:text-3xl font-raleway">Thomas Drumont</h1>
+                      <span class="ml-2 inline-flex items-center px-3 py-1 md:py-0.5 rounded-full text-sm font-medium leading-5 bg-indigo-100 text-indigo-800 my-2 lg:my-0">
+                        <span id="age"></span>&nbsp;ans
+                      </span>
+                    </div>
+                    <p class="text-gray-900 lg:text-lg font-firacode">Développeur web freelance</p>
+                    <p class="text-sm text-gray-900 font-firacode">
+                      Lover of <a class="hover:text-gray-600" href="https://laravel.com" target="_nofollow">Laravel</a>
+                      & <a class="hover:text-gray-600" href="https://tailwindcss.com" target="_nofollow">Tailwind</a>
+                    </p>
+                    <div class="pt-4 px-13 lg:px-0">
+                      <a href="https://discord.com/" target="_nofollow" class="justify-center lg:justify-start inline-flex min-w-full lg:min-w-0 items-center px-2.5 py-1 md:py-0.5 rounded-md text-sm font-medium leading-5 bg-indigo-600 hover:bg-indigo-700 text-white transition ease-in-out duration-300">
+                        <i class="mr-1 fab fa-discord "></i>Havens#4163
+                      </a>
+                      <a href="https://github.com/Havenstd06" target="_nofollow" class="justify-center lg:justify-start inline-flex min-w-full lg:min-w-0 items-center lg:ml-1 px-2.5 py-1 mt-2 md:py-0.5 rounded-md text-sm font-medium leading-5 bg-gray-600 hover:bg-gray-700 text-white transition ease-in-out duration-300">
+                        <i class="mr-1 fab fa-github"></i>Havenstd06
+                      </a>
+                      <a href="https://www.instagram.com/thomas.drmt/" target="_nofollow" class="justify-center lg:justify-start inline-flex min-w-full lg:min-w-0 items-center lg:ml-1 px-2.5 py-1 md:py-0.5 rounded-md text-sm font-medium leading-5 bg-pink-500 hover:bg-pink-600 text-white lg:mt-0 mt-2 transition ease-in-out duration-300">
+                        <i class="mr-1 fab fa-instagram"></i>thomas.drmt
+                      </a>
+                    </div>
+                    <div class="px-13 lg:px-4 lg:pt-2">
+                      <a href="https://twitter.com/HavensYT" target="_nofollow" class="justify-center lg:justify-start inline-flex min-w-full lg:min-w-0 items-center lg:ml-1 px-2.5 py-1 md:py-0.5 rounded-md text-sm font-medium leading-5 bg-blue-500 hover:bg-blue-600 text-white mt-2 lg:mt-0 transition ease-in-out duration-300">
+                        <i class="mr-1 fab fa-twitter"></i>HavensYT
+                      </a>
+                      <a href="mailto:thomas@drumont.dev" target="_nofollow" class="justify-center lg:justify-start inline-flex min-w-full lg:min-w-0 items-center lg:ml-1 px-2.5 py-1 md:py-0.5 rounded-md text-sm font-medium leading-5 bg-green-500 hover:bg-green-600 text-white mt-2 lg:mt-0 transition ease-in-out duration-300 truncate">
+                        <i class="mr-1 far fa-envelope"></i>thomas@drumont.dev
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="px-4 pb-8 md:pt-5 sm:px-6">
+              <div class="max-w-full mx-10 md:flex md:justify-between">
+                <div @click="section = 'propos'">
+                  <button type="button" x-data="{ hover: false }" @mouseenter="hover = true" @mouseleave="hover = false" class="items-center min-w-full px-6 py-3 mt-3 text-lg font-semibold leading-6 text-indigo-700 transition duration-150 ease-in-out bg-indigo-100 border border-transparent rounded-md md:mt-0 md:min-w-0 md:inline-flex hover:bg-indigo-50 focus:outline-none focus:border-indigo-300 focus:shadow-outline-indigo active:bg-indigo-200">
+                    <i class="absolute fad fa-address-card" :class="{ 'fas': hover === true }"></i>
+                    <span class="ml-7">À propos</span>
+                  </button>
+                </div>
+                <div @click="section = 'competences'">
+                  <button type="button" x-data="{ hover: false }" @mouseenter="hover = true" @mouseleave="hover = false" class="items-center min-w-full px-6 py-3 mt-3 text-lg font-semibold leading-6 text-indigo-700 transition duration-150 ease-in-out bg-indigo-100 border border-transparent rounded-md md:mt-0 md:min-w-0 md:inline-flex hover:bg-indigo-50 focus:outline-none focus:border-indigo-300 focus:shadow-outline-indigo active:bg-indigo-200">
+                    <i class="absolute fad fa-code" :class="{ 'fas': hover === true }"></i>
+                    <span class="ml-7">Compétences</span>
+                  </button>
+                </div>
+                <div @click="section = 'formations'">
+                  <button type="button" x-data="{ hover: false }" @mouseenter="hover = true" @mouseleave="hover = false" class="items-center min-w-full px-6 py-3 mt-3 text-lg font-semibold leading-6 text-indigo-700 transition duration-150 ease-in-out bg-indigo-100 border border-transparent rounded-md md:mt-0 md:min-w-0 md:inline-flex hover:bg-indigo-50 focus:outline-none focus:border-indigo-300 focus:shadow-outline-indigo active:bg-indigo-200">
+                    <i class="absolute fad fa-graduation-cap" :class="{ 'fas': hover === true }"></i>
+                    <span class="ml-7">Formations</span>
+                  </button>
+                </div>
+                <div @click="section = 'projets'">
+                  <button type="button" x-data="{ hover: false }" @mouseenter="hover = true" @mouseleave="hover = false" class="items-center min-w-full px-6 py-3 mt-3 text-lg font-semibold leading-6 text-indigo-700 transition duration-150 ease-in-out bg-indigo-100 border border-transparent rounded-md md:mt-0 md:min-w-0 md:inline-flex hover:bg-indigo-50 focus:outline-none focus:border-indigo-300 focus:shadow-outline-indigo active:bg-indigo-200">
+                    <i class="absolute fad fa-laptop-code" :class="{ 'fas': hover === true }"></i>
+                    <span class="ml-7">Projets</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="propos" class="items-center h-screen py-5 sm:flex" x-show="section === 'propos'" x-description="Panel à propos" x-transition:enter="ease-out duration-300" x-transition:enter-start="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95" x-transition:enter-end="opacity-100 translate-y-0 sm:scale-100" x-transition:leave="ease-in duration-200" x-transition:leave-start="opacity-100 translate-y-0 sm:scale-100" x-transition:leave-end="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95">
+      <div class="w-full px-4 sm:px-6 lg:px-8">
+        <div class="max-w-4xl mx-auto">
+          <div class="relative z-50 mb-4 overflow-hidden transition-all ease-in-out bg-white rounded-lg shadow-md shadow-lg duration-600 md:mb-0 md:transform hover:w-full hover:-translate-y-1 hover:scale-102 hover:shadow-lg">
+            <div class="px-3 pt-10 pb-5 md:px-5">
+              <h1 class="text-4xl font-medium tracking-wider text-center text-gray-800 font-raleway">À propos de moi</h1>
+              <blockquote class="mt-8">
+                <div class="max-w-3xl mx-auto text-xl font-medium leading-8 text-gray-900 font-raleway">
+                  <p>
+                    Je m'appelle Thomas Drumont, j'ai 19 ans, j'ai obtenu en 2019 le titre de technicien via mon Bac Pro
+                    Systèmes Numériques durant cette formation j'ai effectué de <span @click="section = 'formations'"
+                    class="font-semibold cursor-pointer">nombreux stages en entreprise </span>.
+                  </p>
+                  <p class="mt-2">
+                    Je suis un grand passionné d'informatique hardware et software mais surtout de développement web.
+                    Je conçois et réalise des sites web (<a href="https://github.com/havenstd06"
+                      target="_nofollow" class="font-semibold">open source</a> pour certains) depuis maintenant 4 ans.
+                  </p>
+                  <p class="mt-2">
+                      Dans ce portfolio que j'ai réalisé, je vais vous présenter mes compétences, mon parcours ainsi que mes principaux projets réalisés.
+                  </p>
+                </div>
+                <footer class="mt-8">
+                  <div class="md:flex md:items-center md:justify-center">
+                    <div class="md:flex-shrink-0">
+                      <img class="w-10 h-10 mx-auto rounded-full"
+                        src="img/photo_profil_2.jpg"
+                        alt="Photo de profil" />
+                    </div>
+                    <div class="mt-3 text-center md:mt-0 md:ml-4 md:flex md:items-center">
+                      <div class="text-base font-medium leading-6 text-gray-900">Thomas Drumont
+                      </div>
+
+                      <svg class="hidden w-5 h-5 mx-1 text-indigo-600 md:block" fill="currentColor" viewBox="0 0 20 20">
+                        <path d="M11 0h3L9 20H6l5-20z" />
+                      </svg>
+
+                      <div class="text-base font-medium leading-6 text-gray-500 font-raleway">Développeur freelance
+                      </div>
+                    </div>
+                  </div>
+                </footer>
+              </blockquote>
+            </div>
+            <div class="px-4 pb-8 mx-4 md:pt-5">
+              <div class="max-w-full mx-auto md:flex md:justify-start">
+                <div @click="section = 'principal'">
+                  <button type="button" x-data="{ hover: false }" @mouseenter="hover = true" @mouseleave="hover = false"
+                    class="items-center min-w-full px-6 py-3 mt-3 text-lg font-semibold leading-6 text-indigo-700 transition duration-150 ease-in-out bg-indigo-100 border border-transparent rounded-md md:mt-0 md:min-w-0 md:inline-flex hover:bg-indigo-50 focus:outline-none focus:border-indigo-300 focus:shadow-outline-indigo active:bg-indigo-200">
+                    <i class="absolute fad fa-undo-alt" :class="{ 'fas': hover === true }"></i>
+                    <span class="ml-7">Retour</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="competences" class="items-center h-screen py-5 sm:flex" x-show="section === 'competences'" x-description="Panel Compétences" x-transition:enter="ease-out duration-300" x-transition:enter-start="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95" x-transition:enter-end="opacity-100 translate-y-0 sm:scale-100" x-transition:leave="ease-in duration-200" x-transition:leave-start="opacity-100 translate-y-0 sm:scale-100" x-transition:leave-end="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95">
+      <div class="w-full px-4 sm:px-6 lg:px-8">
+        <div class="max-w-4xl mx-auto">
+          <div class="relative z-50 mb-4 overflow-hidden transition-all ease-in-out bg-white rounded-lg shadow-md shadow-lg duration-600 md:mb-0 md:transform hover:w-full hover:-translate-y-1 hover:scale-102 hover:shadow-lg">
+            <div class="px-3 pt-10 pb-5 md:px-5">
+              <h1 class="text-4xl font-medium tracking-wider text-center text-gray-800 font-raleway">Compétences</h1>
+              <div class="grid grid-cols-1 gap-4 mt-4 md:grid-cols-2">
+                <div class="max-w-sm">
+                  <h2 class="mb-2 text-xl tracking-wider text-left text-gray-700 lg:text-2xl">Logiciels & OS</h2>
+                  <div class="w-full rounded-full shadow bg-gray-50">
+                    <div class="w-10/12 py-2.5 text-sm leading-none text-center bg-blue-500 rounded-full text-gray-50">
+                      <i class="mr-1 fa-lg fab fa-windows"></i> Windows
+                    </div>
+                  </div>
+                  <div class="w-full mt-2 rounded-full shadow bg-gray-50">
+                    <div class="w-9/12 py-2.5 text-sm leading-none text-center bg-teal-500 rounded-full text-gray-50">
+                      <i class="mr-1 fa-lg fab fa-linux"></i> Linux
+                    </div>
+                  </div>
+                  <div class="w-full mt-2 rounded-full shadow bg-gray-50">
+                    <div class="w-8/12 py-2.5 text-sm leading-none text-center bg-green-500 rounded-full text-gray-50">
+                      <i class="mr-1 fa-lg fab fa-android"></i> Android
+                    </div>
+                  </div>
+                  <div class="w-full mt-2 rounded-full shadow bg-gray-50">
+                    <div class="flex items-center justify-center w-7/12 py-2.5 text-sm leading-none bg-indigo-600 rounded-full text-gray-50">
+                      <svg class="w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48.237 48.464" transform="translate(11.995 11.995) scale(.9167)"><path fill="#f9fafb" d="M17.172 29.664L5.215 38.981 0 36.384V12.1l5.195-2.617 11.874 9.338L35.869 0l12.368 4.927v38.528l-12.306 5.009zM35.5 32.942V15.523l-11.255 8.72zM5.628 29.808l5.916-5.38-5.916-5.9z" data-name="visual studio code"/>
+                          </svg>
+                        </svg>
+                      VSCode
+                    </div>
+                  </div>
+                  <div class="w-full mt-2 rounded-full shadow bg-gray-50">
+                    <div class="w-1/2 py-2.5 text-sm leading-none text-center bg-orange-500 rounded-full text-gray-50">
+                      <i class="mr-1 fa-lg far fa-database"></i> SQL
+                    </div>
+                  </div>
+                  <div class="w-full mt-2 rounded-full shadow bg-gray-50">
+                    <div class="w-2/5 py-2.5 text-sm leading-none text-center bg-blue-600 rounded-full text-gray-50">
+                      <i class="mr-1 fa-lg fab fa-docker"></i> Docker
+                    </div>
+                  </div>
+                </div>
+                <div class="max-w-sm">
+                  <h2 class="mb-2 text-xl tracking-wider text-left text-gray-700 lg:text-2xl">Langages</h2>
+                  <div class="w-full rounded-full shadow bg-gray-50">
+                    <div class="w-11/12 py-2.5 text-sm leading-none text-center bg-orange-500 rounded-full text-gray-50">
+                      <i class="mr-1 fa-lg fab fa-html5"></i> HTML5
+                    </div>
+                  </div>
+                  <div class="w-full mt-2 rounded-full shadow bg-gray-50">
+                    <div class="w-10/12 py-2.5 text-sm leading-none text-center bg-blue-600 rounded-full text-gray-50">
+                      <i class="mr-1 fa-lg fab fa-css3-alt"></i> CSS3
+                    </div>
+                  </div>
+                  <div class="w-full mt-2 rounded-full shadow bg-gray-50">
+                    <div class="w-4/6 py-2 text-sm leading-none text-center bg-red-500 rounded-full text-gray-50">
+                      <i class="mr-1 fa-lg fab fa-laravel"></i> Laravel
+                    </div>
+                  </div>
+                  <div class="w-full mt-2 rounded-full shadow bg-gray-50">
+                    <div class="w-3/6 py-2.5 text-sm leading-none text-center bg-gray-700 rounded-full text-gray-50">
+                      <i class="mr-1 fa-lg fab fa-php"></i> PHP
+                    </div>
+                  </div>
+                  <div class="w-full mt-2 rounded-full shadow bg-gray-50">
+                    <div class="w-5/12 py-2.5 text-sm leading-none text-center bg-yellow-400 rounded-full text-gray-50">
+                      <i class="mr-1 fa-lg fab fa-js"></i> Javascript
+                    </div>
+                  </div>
+                  <div class="w-full mt-2 rounded-full shadow bg-gray-50">
+                    <div class="w-2/6 py-2.5 text-sm leading-none text-center bg-green-400 rounded-full text-gray-50">
+                      <i class="mr-1 fa-lg fab fa-vuejs"></i> VueJS
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="px-4 pb-8 mx-4 md:pt-5">
+              <div class="max-w-full mx-auto md:flex md:justify-start">
+                <div @click="section = 'principal'">
+                  <button type="button" x-data="{ hover: false }" @mouseenter="hover = true" @mouseleave="hover = false"
+                    class="items-center min-w-full px-6 py-3 mt-3 text-lg font-semibold leading-6 text-indigo-700 transition duration-150 ease-in-out bg-indigo-100 border border-transparent rounded-md md:mt-0 md:min-w-0 md:inline-flex hover:bg-indigo-50 focus:outline-none focus:border-indigo-300 focus:shadow-outline-indigo active:bg-indigo-200">
+                    <i class="absolute fad fa-undo-alt" :class="{ 'fas': hover === true }"></i>
+                    <span class="ml-7">Retour</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="formations" class="items-center h-screen py-5 sm:flex" x-show="section === 'formations'" x-description="Panel Formations" x-transition:enter="ease-out duration-300" x-transition:enter-start="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95" x-transition:enter-end="opacity-100 translate-y-0 sm:scale-100" x-transition:leave="ease-in duration-200" x-transition:leave-start="opacity-100 translate-y-0 sm:scale-100" x-transition:leave-end="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95">
+      <div class="w-full px-4 sm:px-6 lg:px-8">
+        <div class="max-w-4xl mx-auto">
+          <div class="relative z-50 mb-4 overflow-hidden transition-all ease-in-out bg-white rounded-lg shadow-md shadow-lg duration-600 md:mb-0 md:transform hover:w-full hover:-translate-y-1 hover:scale-102 hover:shadow-lg">
+            <div class="px-3 pt-10 pb-5 md:px-5">
+              <h1 class="text-4xl font-medium tracking-wider text-center text-gray-800 font-raleway">Formations</h1>
+              <div class="grid grid-cols-1 gap-4 my-5 md:grid-cols-2">
+                <div>
+                  <div class="block transition duration-150 ease-in-out rounded bg-gray-50 hover:bg-gray-100 focus:outline-none focus:bg-gray-50" x-data="{ hover: false }" @mouseenter="hover = true" @mouseleave="hover = false">
+                    <div class="flex items-center px-4 py-4 sm:px-6">
+                      <div class="flex-1 min-w-0 sm:flex sm:items-center sm:justify-between">
+                        <div>
+                          <div class="text-sm font-medium leading-5 text-indigo-600 truncate">
+                            Lycée Pro ELM - Bac Pro SN
+                            <span class="ml-1 font-normal text-gray-600">
+                              École
+                            </span>
+                          </div>
+                          <div class="flex mt-2">
+                            <div class="flex items-center text-sm leading-5 text-gray-600">
+                              <i class="flex-shrink-0 mr-2 text-xl text-gray-500 far fa-calendar-week" :class="{ 'fas': hover === true }"></i>
+                              <span>
+                                Sept. 2016 – Juin 2019
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="block mt-4 transition duration-150 ease-in-out rounded bg-gray-50 hover:bg-gray-100 focus:outline-none focus:bg-gray-50" x-data="{ hover: false }" @mouseenter="hover = true" @mouseleave="hover = false">
+                    <div class="flex items-center px-4 py-4 sm:px-6">
+                      <div class="flex-1 min-w-0 sm:flex sm:items-center sm:justify-between">
+                        <div>
+                          <div class="text-sm font-medium leading-5 text-indigo-600 truncate">
+                            Préfecture Des Bouches-du-Rhône
+                            <span class="ml-1 font-normal text-gray-600">
+                              Stage
+                            </span>
+                          </div>
+                          <div class="flex mt-2">
+                            <div class="flex items-center text-sm leading-5 text-gray-600">
+                              <i class="flex-shrink-0 mr-2 text-xl text-gray-500 far fa-calendar-week" :class="{ 'fas': hover === true }"></i>
+                              <span>
+                                Janv. 2019 – Fév. 2019 
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div class="block transition duration-150 ease-in-out rounded bg-gray-50 hover:bg-gray-100 focus:outline-none focus:bg-gray-50" x-data="{ hover: false }" @mouseenter="hover = true" @mouseleave="hover = false">
+                    <div class="flex items-center px-4 py-4 sm:px-6">
+                      <div class="flex-1 min-w-0 sm:flex sm:items-center sm:justify-between">
+                        <div>
+                          <div class="text-sm font-medium leading-5 text-indigo-600 truncate">
+                            Toshiba Germany
+                            <span class="ml-1 font-normal text-gray-600">
+                              Stage
+                            </span>
+                          </div>
+                          <div class="flex mt-2">
+                            <div class="flex items-center text-sm leading-5 text-gray-600">
+                              <i class="flex-shrink-0 mr-2 text-xl text-gray-500 far fa-calendar-week" :class="{ 'fas': hover === true }"></i>
+                              <span>
+                                Nov. 2018 – Déc. 2018
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="block mt-4 transition duration-150 ease-in-out rounded bg-gray-50 hover:bg-gray-100 focus:outline-none focus:bg-gray-50" x-data="{ hover: false }" @mouseenter="hover = true" @mouseleave="hover = false">
+                    <div class="flex items-center px-4 py-4 sm:px-6">
+                      <div class="flex-1 min-w-0 sm:flex sm:items-center sm:justify-between">
+                        <div>
+                          <div class="text-sm font-medium leading-5 text-indigo-600 truncate">
+                            Assistance Publique – Hôpitaux de Marseille
+                            <span class="ml-1 font-normal text-gray-600">
+                              Stage
+                            </span>
+                          </div>
+                          <div class="flex mt-2">
+                            <div class="flex items-center text-sm leading-5 text-gray-600">
+                              <i class="flex-shrink-0 mr-2 text-xl text-gray-500 far fa-calendar-week" 
+                                :class="{ 'fas': hover === true }"></i>
+                              <span>
+                                Nov. 2018 – Déc. 2018
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="md:pt-4 sm:col-span-2">
+                <dt class="text-sm font-medium leading-5 text-gray-500">
+                  Documents
+                </dt>
+                <dd class="mt-1 text-sm leading-5 text-gray-900">
+                  <ul class="border border-gray-200 rounded-md">
+                    <li class="flex items-center justify-between py-3 pl-3 pr-4 text-sm leading-5">
+                      <div class="flex items-center flex-1 w-0">
+                        <svg class="flex-shrink-0 w-5 h-5 text-gray-400" fill="currentColor" viewBox="0 0 20 20">
+                          <path fill-rule="evenodd" d="M8 4a3 3 0 00-3 3v4a5 5 0 0010 0V7a1 1 0 112 0v4a7 7 0 11-14 0V7a5 5 0 0110 0v4a3 3 0 11-6 0V7a1 1 0 012 0v4a1 1 0 102 0V7a3 3 0 00-3-3z" clip-rule="evenodd" />
+                        </svg>
+                        <span class="flex-1 w-0 ml-2 truncate">
+                          CV-Thomas-Drumont-2020.pdf
+                        </span>
+                      </div>
+                      <div class="flex-shrink-0 ml-4">
+                        <a href="img/CV_2019-2020.pdf" target="_nofollow" class="font-medium text-indigo-600 transition duration-150 ease-in-out hover:text-indigo-500">
+                          Télécharger
+                        </a>
+                      </div>
+                    </li>
+                  </ul>
+                </dd>
+              </div>
+            </div>
+            <div class="px-4 pb-8 mx-4 md:pt-5">
+              <div class="max-w-full mx-auto md:flex md:justify-start">
+                <div @click="section = 'principal'">
+                  <button type="button" x-data="{ hover: false }" @mouseenter="hover = true" @mouseleave="hover = false"
+                    class="items-center min-w-full px-6 py-3 mt-3 text-lg font-semibold leading-6 text-indigo-700 transition duration-150 ease-in-out bg-indigo-100 border border-transparent rounded-md md:mt-0 md:min-w-0 md:inline-flex hover:bg-indigo-50 focus:outline-none focus:border-indigo-300 focus:shadow-outline-indigo active:bg-indigo-200">
+                    <i class="absolute fad fa-undo-alt" :class="{ 'fas': hover === true }"></i>
+                    <span class="ml-7">Retour</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="projets" class="items-center h-screen py-5 sm:flex" x-show="section === 'projets'" x-description="Panel Projets" x-transition:enter="ease-out duration-300" x-transition:enter-start="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95" x-transition:enter-end="opacity-100 translate-y-0 sm:scale-100" x-transition:leave="ease-in duration-200" x-transition:leave-start="opacity-100 translate-y-0 sm:scale-100" x-transition:leave-end="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95">
+      <div class="w-full px-4 sm:px-6 lg:px-8">
+        <div class="max-w-4xl mx-auto">
+          <div class="relative z-50 mb-4 overflow-hidden transition-all ease-in-out bg-white rounded-lg shadow-md shadow-lg duration-600 md:mb-0 md:transform hover:w-full hover:-translate-y-1 hover:scale-102 hover:shadow-lg">
+            <div class="px-3 pt-10 md:px-5">
+              <h1 class="mb-2 text-4xl font-medium tracking-wider text-center text-gray-800 font-raleway">Projets</h1>
+              <div x-data="{ projet: 'limg' }">
+                <div class="border-gray-200 md:border-b">
+                  <nav class="md:flex md:-mb-px">
+                    <button @click="projet = 'limg'" class="w-full px-1 py-4 font-medium leading-5 text-center text-gray-500 border-b-2 border-transparent md:w-full hover:text-gray-700 hover:border-gray-300 focus:outline-none focus:text-gray-700 focus:border-gray-300" :class="{ 'text-indigo-600 border-indigo-500 focus:text-indigo-800 focus:border-indigo-700': projet === 'limg' }">
+                      Limg
+                    </button>
+                    <button @click="projet = 'larashop'" class="w-full px-1 py-4 font-medium leading-5 text-center text-gray-500 border-b-2 border-transparent md:w-full hover:text-gray-700 hover:border-gray-300 focus:outline-none focus:text-gray-700 focus:border-gray-300" :class="{ 'text-indigo-600 border-indigo-500 focus:text-indigo-800 focus:border-indigo-700': projet === 'larashop' }">
+                      Larashop
+                    </button>
+                    <button @click="projet = 'wtip'" class="w-full px-1 py-4 font-medium leading-5 text-center text-gray-500 truncate border-b-2 border-transparent md:w-full hover:text-gray-700 hover:border-gray-300 focus:outline-none focus:text-gray-700 focus:border-gray-300" :class="{ 'text-indigo-600 border-indigo-500 focus:text-indigo-800 focus:border-indigo-700': projet === 'wtip' }">
+                      WTIP Wallet Gen.
+                    </button>
+                  </nav>
+                </div>
+                <div class="mt-4">
+                  <div x-show="projet === 'limg'">
+                    <div class="grid grid-cols-1 gap-4 mx-4 md:grid-cols-2">
+                      <div class="flex items-center">
+                        <div class="flex flex-col items-center w-full mx-auto my-8">
+                          <div style="background-image: url(img/limg2.gif)" class="w-full h-64 bg-gray-300 bg-center bg-cover rounded-lg shadow-md"></div>
+                          <div class="w-56 -mt-10 overflow-hidden bg-white rounded-lg shadow-lg md:w-64">
+                            <h2 class="py-2 font-bold tracking-wide text-center text-gray-800 uppercase">Limg.app</h2>
+                            <div class="px-3 py-2 text-center bg-gray-100 md:text-left md:flex">
+                              <h1 class="flex-1 font-bold text-gray-800 font-raleway">2019-2020</h1>
+                              <div class="flex justify-center md:justify-end">
+                                <a href="https://github.com/havenstd06/limg" target="_nofollow"
+                                  class="px-2 py-1 text-xs font-semibold text-white uppercase transition duration-150 ease-in-out bg-gray-500 rounded hover:bg-gray-700">
+                                  Github
+                                </a>
+                                <a href="https://limg.app" target="_nofollow"
+                                  class="px-2 py-1 ml-2 text-xs font-semibold text-white uppercase transition duration-150 ease-in-out bg-indigo-500 rounded hover:bg-indigo-700">
+                                  Visiter
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="flex flex-col max-w-sm px-4 py-2 mx-auto my-2 rounded-lg shadow-md md:px-8 bg-gray-50">
+                        <div class="flex items-center justify-center">
+                          <h2 class="text-3xl font-bold text-gray-800">
+                            <span class="text-indigo-600">Limg</span>.App
+                          </h2>
+                        </div>
+                        <div class="mt-4">
+                          <p class="text-lg font-medium text-gray-700">
+                            Limg est un service d'hébergement d'images <a href="https://github.com/havenstd06/limg" target="_nofollow" class="font-bold">open source</a> sous le framework PHP <a href="https://laravel.com" target="_nofollow" class="font-bold">Laravel</a>.
+                          </p>
+                          <ul class="flex flex-col pt-4">
+                            <li class="flex flex-row mb-2 border-gray-200">
+                              <div class="flex items-center flex-1 p-4 transition duration-500 ease-in-out transform bg-gray-100 rounded-md select-none hover:-translate-y-1 hover:shadow-lg" x-data="{ hover: false }" @mouseenter="hover = true" @mouseleave="hover = false">
+                                <div class="flex flex-col items-center justify-center w-10 h-10 px-4 mr-4 text-indigo-700 bg-indigo-100 rounded-md hover:bg-indigo-50">
+                                  <i class="absolute fa-folder-upload fa-lg" :class="{ 'fas': hover === true, 'fad': hover === false }"></i>
+                                </div>
+                                <p class="pl-1 text-sm font-medium">Téléchargez des images via fichier, API ou URL</p>
+                              </div>
+                            </li>
+                            <li class="flex flex-row mb-2 border-gray-200">
+                              <div class="flex items-center flex-1 p-4 transition duration-500 ease-in-out transform bg-gray-100 rounded-md select-none hover:-translate-y-1 hover:shadow-lg" x-data="{ hover: false }" @mouseenter="hover = true" @mouseleave="hover = false">
+                                <div class="flex flex-col items-center justify-center w-10 h-10 px-4 mr-4 text-indigo-700 bg-indigo-100 rounded-md hover:bg-indigo-50">
+                                  <i class="absolute fa-image-polaroid fa-lg"
+                                    :class="{ 'fas': hover === true, 'fad': hover === false }"></i>
+                                </div>
+                                <p class="pl-1 text-sm font-medium">Création d'albums et recherche dynamique</p>
+                              </div>
+                            </li>
+                            <li class="flex flex-row mb-2 border-gray-200">
+                              <div class="flex items-center flex-1 p-4 transition duration-500 ease-in-out transform bg-gray-100 rounded-md select-none hover:-translate-y-1 hover:shadow-lg" x-data="{ hover: false }" @mouseenter="hover = true" @mouseleave="hover = false">
+                                <div class="flex flex-col items-center justify-center w-10 h-10 px-4 mr-4 text-indigo-700 bg-indigo-100 rounded-md hover:bg-indigo-50">
+                                  <i class="absolute fa-tools fa-lg" :class="{ 'fas': hover === true, 'fad': hover === false }"></i>
+                                </div>
+                                <p class="pl-1 text-sm font-medium">Customisation (visibilité, taille personnalisée), panel admin</p>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div x-show="projet === 'larashop'">
+                    <div class="grid grid-cols-1 gap-4 mx-4 md:grid-cols-2">
+                      <div class="flex items-center">
+                        <div class="flex flex-col items-center w-full mx-auto my-8">
+                          <div style="background-image: url(img/larashop.png)" class="w-full h-64 bg-gray-300 bg-center bg-cover rounded-lg shadow-md"></div>
+                          <div class="w-56 -mt-10 overflow-hidden bg-white rounded-lg shadow-lg md:w-64">
+                            <h2 class="py-2 font-bold tracking-wide text-center text-gray-800 uppercase">Larashop</h2>
+                            <div class="px-3 py-2 text-center bg-gray-100 md:text-left md:flex">
+                              <h1 class="flex-1 font-bold text-gray-800 font-raleway">2020</h1>
+                              <div class="flex justify-center md:justify-end">
+                                <a href="https://github.com/havenstd06/larashop" target="_nofollow"
+                                  class="px-2 py-1 text-xs font-semibold text-white uppercase transition duration-150 ease-in-out bg-gray-500 rounded hover:bg-gray-700">
+                                  Github
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="flex flex-col max-w-sm px-4 py-2 mx-auto my-2 rounded-lg shadow-md md:px-8 bg-gray-50">
+                        <div class="flex items-center justify-center">
+                          <h2 class="text-3xl font-bold text-gray-800">
+                            Lara<span class="text-gray-600">shop</span>
+                          </h2>
+                        </div>
+                        <div class="mt-4">
+                          <p class="text-lg font-medium text-gray-700">
+                            Larashop est une boutique <a href="https://github.com/havenstd06/limg" target="_nofollow" class="font-bold">open source</a> sous le framework PHP <a href="https://laravel.com" class="font-bold" target="_nofollow" class="font-bold">Laravel</a> & <a href="https://tailwindcss.com" target="_nofollow" class="font-bold" >Tailwind CSS</a>.
+                          </p>
+                          <ul class="flex flex-col pt-4">
+                            <li class="flex flex-row mb-2 border-gray-200">
+                              <div class="flex items-center flex-1 p-4 transition duration-500 ease-in-out transform bg-gray-100 rounded-md select-none hover:-translate-y-1 hover:shadow-lg" x-data="{ hover: false }" @mouseenter="hover = true" @mouseleave="hover = false">
+                                <div class="flex flex-col items-center justify-center w-10 h-10 px-4 mr-4 text-indigo-700 bg-indigo-100 rounded-md hover:bg-indigo-50">
+                                  <i class="absolute fa-tags fa-lg" :class="{ 'fas': hover === true, 'fad': hover === false }"></i>
+                                </div>
+                                <p class="pl-1 text-sm font-medium">Produit avec catégories et recherche</p>
+                              </div>
+                            </li>
+                            <li class="flex flex-row mb-2 border-gray-200">
+                              <div class="flex items-center flex-1 p-4 transition duration-500 ease-in-out transform bg-gray-100 rounded-md select-none hover:-translate-y-1 hover:shadow-lg" x-data="{ hover: false }" @mouseenter="hover = true" @mouseleave="hover = false">
+                                <div class="flex flex-col items-center justify-center w-10 h-10 px-4 mr-4 text-indigo-700 bg-indigo-100 rounded-md hover:bg-indigo-50">
+                                  <i class="absolute fa-shopping-cart fa-lg" :class="{ 'fas': hover === true, 'fad': hover === false }"></i>
+                                </div>
+                                <p class="pl-1 text-sm font-medium">Système de panier et coupon</p>
+                              </div>
+                            </li>
+                            <li class="flex flex-row mb-2 border-gray-200">
+                              <div class="flex items-center flex-1 p-4 transition duration-500 ease-in-out transform bg-gray-100 rounded-md select-none hover:-translate-y-1 hover:shadow-lg" x-data="{ hover: false }" @mouseenter="hover = true" @mouseleave="hover = false">
+                                <div class="flex flex-col items-center justify-center w-10 h-10 px-4 mr-4 text-indigo-700 bg-indigo-100 rounded-md hover:bg-indigo-50">
+                                  <i class="absolute fa-credit-card fa-lg" :class="{ 'fas': hover === true, 'fad': hover === false }"></i>
+                                </div>
+                                <p class="pl-1 text-sm font-medium">Paiement via <a href="https://stripe.com" target="_nofollow" class="font-semibold">Stripe</a> et panel d'administration</p>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div x-show="projet === 'wtip'">
+                    <div class="grid grid-cols-1 gap-4 mx-4 md:grid-cols-2">
+                      <div class="flex items-center">
+                        <div class="flex flex-col items-center w-full mx-auto my-8">
+                          <div style="background-image: url(img/wtip.png)" class="w-full h-64 bg-gray-300 bg-center bg-cover rounded-lg shadow-md"></div>
+                          <div class="w-56 -mt-10 overflow-hidden bg-white rounded-lg shadow-lg md:w-64">
+                            <h2 class="py-2 font-bold tracking-wide text-center text-gray-800 uppercase">WTIP Wallet Gen.</h2>
+                            <div class="px-3 py-2 text-center bg-gray-100 md:text-left md:flex">
+                              <h1 class="flex-1 font-bold text-gray-800 font-raleway">2018</h1>
+                              <div class="flex justify-center md:justify-end">
+                                <a href="https://github.com/havenstd06/worktips-paper-wallet" target="_nofollow"
+                                  class="px-2 py-1 text-xs font-semibold text-white uppercase transition duration-150 ease-in-out bg-gray-500 rounded hover:bg-gray-700">
+                                  Github
+                                </a>
+                                <a href="https://wtipwallet.hvs.cx" target="_nofollow"
+                                  class="px-2 py-1 ml-2 text-xs font-semibold text-white uppercase transition duration-150 ease-in-out bg-indigo-500 rounded hover:bg-indigo-700">
+                                  Visiter
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="flex flex-col max-w-sm px-4 py-2 mx-auto my-2 rounded-lg shadow-md md:px-8 bg-gray-50">
+                        <div class="flex items-center justify-center">
+                          <h2 class="text-2xl font-bold text-center text-gray-800 lg:text-3xl">
+                            <span class="text-orange-500">WTIP</span> Wallet Gen.
+                          </h2>
+                        </div>
+                        <div class="mt-4">
+                          <p class="text-lg font-medium text-gray-700">
+                            Worktips Wallet Generator est un générateur d'adresse papier <a href="https://github.com/Havenstd06/worktips-paper-wallet" target="_nofollow" class="font-bold">open source</a> pour la cryptomonaie <a href="https://worktips.xyz/" target="_nofollow" class="font-bold">Worktips</a>.
+                          </p>
+                          <ul class="flex flex-col pt-4">
+                            <li class="flex flex-row mb-2 border-gray-200">
+                              <div class="flex items-center flex-1 p-4 transition duration-500 ease-in-out transform bg-gray-100 rounded-md select-none hover:-translate-y-1 hover:shadow-lg"
+                                x-data="{ hover: false }" @mouseenter="hover = true" @mouseleave="hover = false">
+                                <div class="flex flex-col items-center justify-center w-10 h-10 px-4 mr-4 text-indigo-700 bg-indigo-100 rounded-md hover:bg-indigo-50">
+                                  <i class="absolute fa-sync-alt fa-lg" :class="{ 'fas': hover === true, 'fad': hover === false }"></i>
+                                </div>
+                                <p class="pl-1 text-sm font-medium">Génère une adresse WTIP</p>
+                              </div>
+                            </li>
+                            <li class="flex flex-row mb-2 border-gray-200">
+                              <div class="flex items-center flex-1 p-4 transition duration-500 ease-in-out transform bg-gray-100 rounded-md select-none hover:-translate-y-1 hover:shadow-lg" x-data="{ hover: false }" @mouseenter="hover = true" @mouseleave="hover = false">
+                                <div class="flex flex-col items-center justify-center w-10 h-10 px-4 mr-4 text-indigo-700 bg-indigo-100 rounded-md hover:bg-indigo-50">
+                                  <i class="absolute fa-print fa-lg" :class="{ 'fas': hover === true, 'fad': hover === false }"></i>
+                                </div>
+                                <p class="pl-1 text-sm font-medium">Support papier</p>
+                              </div>
+                            </li>
+                            <li class="flex flex-row border-gray-200">
+                              <div class="flex items-center flex-1 p-4 transition duration-500 ease-in-out transform bg-gray-100 rounded-md select-none hover:-translate-y-1 hover:shadow-lg" x-data="{ hover: false }" @mouseenter="hover = true" @mouseleave="hover = false">
+                                <div class="flex flex-col items-center justify-center w-10 h-10 px-4 mr-4 text-indigo-700 bg-indigo-100 rounded-md hover:bg-indigo-50">
+                                  <i class="absolute fa-tachometer-fastest fa-lg" :class="{ 'fas': hover === true, 'fad': hover === false }"></i>
+                                </div>
+                                <p class="pl-1 text-sm font-medium">Rapide et facile d'utilisation</p>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="px-4 pb-8 mx-4">
+              <div class="max-w-full mx-auto md:flex md:justify-start">
+                <div @click="section = 'principal'">
+                  <button type="button" x-data="{ hover: false }" @mouseenter="hover = true" @mouseleave="hover = false"
+                    class="items-center min-w-full px-6 py-3 mt-3 text-lg font-semibold leading-6 text-indigo-700 transition duration-150 ease-in-out bg-indigo-100 border border-transparent rounded-md md:mt-0 md:min-w-0 md:inline-flex hover:bg-indigo-50 focus:outline-none focus:border-indigo-300 focus:shadow-outline-indigo active:bg-indigo-200">
+                    <i class="absolute fad fa-undo-alt" :class="{ 'fas': hover === true }"></i>
+                    <span class="ml-7">Retour</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- Script -->
+  <script src="js/app.js"></script>
+</body>
+
+</html>
