@@ -350,7 +350,7 @@
         </div>
       </div>
     </div>
-    <div class="flex items-center justify-between flex-none h-20 px-5 bg-gray-700-spotify">
+    <div class="items-center justify-between flex-none h-20 px-5 md:flex bg-gray-700-spotify">
       <div class="flex items-center">
         <a href="#">
           <img src="/img/coverorelsan.jpg" alt="Album cover" class="w-14 h-14">
@@ -420,11 +420,12 @@
             <path fill="currentColor" d="M16 128h416c9 0 16-7 16-16V48c0-9-7-16-16-16H16C7 32 0 39 0 48v64c0 9 7 16 16 16zm480 80H80c-9 0-16 7-16 16v64c0 9 7 16 16 16h416c9 0 16-7 16-16v-64c0-9-7-16-16-16zm-64 176H16c-9 0-16 7-16 16v64c0 9 7 16 16 16h416c9 0 16-7 16-16v-64c0-9-7-16-16-16z" />
           </svg>
         </button>
-        <button class="ml-6 focus:outline-none">
-          <svg class="w-4 h-4 cursor-default hover:text-gray-50" aria-hidden="true" data-prefix="fas" data-icon="desktop"
+        <button class="relative inline-block ml-6 focus:outline-none">
+          <svg class="w-4 h-4 cursor-default text-green-600-spotify" aria-hidden="true" data-prefix="fas" data-icon="desktop"
             xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
             <path fill="currentColor" d="M528 0H48C22 0 0 22 0 48v320c0 27 22 48 48 48h192l-16 48h-72a24 24 0 100 48h272a24 24 0 100-48h-72l-16-48h192c27 0 48-21 48-48V48c0-26-21-48-48-48zm-16 352H64V64h448v288z" />
           </svg>
+          <span class="absolute top-0 right-0 block h-2.5 w-2.5 transform -translate-y-1/2 translate-x-1/2 rounded-full bg-green-600-spotify"></span>
         </button>
         <button class="ml-6 focus:outline-none">
           <svg class="w-4 h-4 cursor-default hover:text-gray-50" aria-hidden="true" data-prefix="fas" data-icon="volume-down"
@@ -440,6 +441,22 @@
             <path fill="currentColor" d="M213 315l-93 93 33 31c15 15 4 41-17 41H24c-13 0-24-11-24-24V344c0-21 26-32 41-17l31 33 93-93c6-6 16-6 22 0l26 26c6 6 6 16 0 22zm22-118l93-93-33-31c-15-15-4-41 17-41h112c13 0 24 11 24 24v112c0 21-26 32-41 17l-31-33-93 93c-6 6-16 6-22 0l-26-26c-6-6-6-16 0-22z" />
           </svg>
         </button>
+      </div>
+    </div>
+    <div class="flex items-center justify-end flex-none h-6 px-5 bg-green-600-spotify">
+      <div class="flex items-center mr-11">
+      <div class="relative bottom-4 left-12">
+        <svg class="w-5 h-5 text-green-600-spotify" aria-hidden="true" data-prefix="fas" data-icon="triangle"
+          xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+          <path fill="currentColor" d="M330 24a48 48 0 00-84 0L7 440c-19 32 4 72 41 72h480c37 0 60-40 42-72L330 24z" />
+        </svg>
+      </div>
+        <svg class="w-4 h-4 text-white" aria-hidden="true" data-prefix="fab" data-icon="chromecast"
+          xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+          <path fill="currentColor"
+            d="M448 64H64a43 43 0 00-43 43v64h43v-64h384v298H299v43h149a43 43 0 0043-43V107a43 43 0 00-43-43zM21 384v63h64a64 64 0 00-64-63zm0-86v43a107 107 0 01107 107h43A149 149 0 0022 299h-1zm0-85v43c106 0 192 85 192 191v1h43c0-129-105-234-235-235z" />
+        </svg>
+        <h4 class="ml-2 text-xs font-medium text-white">Listening on <span class="font-extrabold">Mini Thomas</span></h4>
       </div>
     </div>
   </div>
